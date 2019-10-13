@@ -30,26 +30,37 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Document Object Model
+
 2. What is an event?
+
+Something that happens to an HTML element
+
 
 3. What is an event listener?
 
+Event listeners attach what to do when the event is fired, tells the DOM to look out for a specified event and what to do when it happens
+
 4. Why would we convert a NodeList into an Array?
+
+We want to convert a NodeList nto an array because NodeList only have few methods we can use such as forEach. When we covert it to an array , we can use all the methods (filter, reduce, map etc..)and manipulate our array.
 
 5. What is a component?
 
+a useable function to build HTML elements and reusable code that we can use in order to avoid D.R.Y.
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
+* [x] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
 * [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
 
