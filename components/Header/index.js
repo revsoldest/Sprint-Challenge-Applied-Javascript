@@ -9,7 +9,7 @@
 //  </div >
 // And add it to the DOM in the .header-container component
 
-function Header() {}
+function Header() {
 
  //  add elements 
  const 
@@ -20,18 +20,17 @@ function Header() {}
 
  // add existing classes
 
-
  header1.classList.add('header')
  newDate.classList.add('date')
  newTemp.classList.add('temp')
 
+
  // append boxes
-
-
 
  header1.appendChild(newDate)
  header1.appendChild(newTitle)
 
+ 
  // add content
 
  newTitle.textContent='Lambda Times'
@@ -42,7 +41,7 @@ function Header() {}
 
  return header1
 
-}
+};
 
 // append new created div 'Header'into the main 'header container'.
 
