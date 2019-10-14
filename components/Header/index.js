@@ -12,6 +12,7 @@
 function Header() {
 
  //  add elements 
+ 
  const 
  header1 = document.createElement('div'),
  newDate= document.createElement('span'),
